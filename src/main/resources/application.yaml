@@ -1,0 +1,14 @@
+
+ spring:
+   application:
+     name: todo-list
+   datasource:
+     url: jdbc:mysql://localhost:3306/todo_list
+     username: ${DATABASE_USERNAME}
+     password: ${DATABASE_PASSWORD}
+
+
+   jpa:
+     hibernate:
+       ddl-auto: update
+     show-sql: true
